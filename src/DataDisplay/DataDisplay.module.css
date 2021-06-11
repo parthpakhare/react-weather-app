@@ -1,0 +1,57 @@
+.Content{
+    list-style-type:none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    box-sizing: border-box;
+}
+
+li{
+    margin: 10vh 0;
+    text-transform: capitalize;
+}
+
+.Logo img{
+    width: 40vw;
+    height: 40vw;
+}
+
+.Temp{
+    display: inline-flex;
+}
+
+.Temp img{
+    height:9vh ;
+}
+
+.Lborder{
+    border-left: 1px solid black;
+    padding-left: 8px;
+}
+
+.Rborder{
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.Nodata{
+    padding-top: 20vh;
+}
+
+@media(min-width: 700px){
+    .Content{
+        display:inline-flex;
+        padding: 10vh 10vw;
+    }
+
+    li{
+        margin: 0 0;
+        width: 25vw;
+    }
+
+    .Logo img{
+        width: 15vw;
+        height: 15vw;
+    }
+}

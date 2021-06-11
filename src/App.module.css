@@ -1,0 +1,71 @@
+.App{
+  font-size: 10vw;
+}
+
+.Topbar {
+  margin: auto;
+  padding: 20px;
+  background-image: linear-gradient(to right, #e02b2b , #1555cc);
+  background-color: #2b4ca8;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+.Topbar h1{
+  font-weight: 350;
+}
+
+.Topbar input {
+  border: 0;
+  margin: 0;
+  padding:25px 25px;
+  height: 20px;
+  width: 300px;
+  background-color: #ffffffa4;
+  border-radius: 30px;
+}
+
+.Topbar input:hover, .Topbar input:focus{
+  background-color: #ffffffb7;
+  outline: none;
+}
+
+.Display{
+  margin: auto;
+}
+
+.Search{
+  display: inline-flex;
+}
+
+.Button {
+  border: 0;
+  margin-left: -50px;
+  padding: 13px; 
+  border-radius: 35px; 
+  background-color: #ffffffc7;
+  outline: none;
+}
+
+.Button:hover{ 
+  background-color: #ffffffea;
+  cursor: pointer;
+  margin-top: -1px;
+  padding: 14px;
+}
+
+.Button img{
+  width: 23px;
+  height: 20px;
+}
+
+.Invalid{
+  padding-top: 20vh;
+}
+
+@media(max-width: 700px){
+  .Topbar input{
+      width:60vw
+  }
+}
